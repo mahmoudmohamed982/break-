@@ -42,30 +42,33 @@
     <header class="landing-header">
         <!-- navbar -->
         <nav class="bg-custom">
-            <div class="container nav-container">
-                <div class="row align-items-center">
-                    <div class="col-6">
-                        <div class="logo">
-                            <a href="index.html">BREAK</a>
-                        </div>
-                    </div>
-                    <div class="col-6 d-flex align-items-baseline justify-content-end">
-                        <div class="user mx-4">
-                            <i class="fa-regular fa-user fa-lg"></i>
-                        </div>
-
-                        <div class="lang-select">
-                            <select name="format" id="format">
-                                <option id="select_en" value="en">En</option>
-                                <option id="select_ar" value="ar">Ar</option>
-                            </select>
-                        </div>
-                    </div>
+          <div class="container nav-container">
+            <div class="row align-items-center">
+              <div class="col-6">
+                <div class="logo">
+                  <a href="index.html">BREAK</a>
                 </div>
+              </div>
+              <div class="col-6 d-flex align-items-baseline justify-content-end">
+                <a href="search.html" class="search-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+    
+                </a>
+                <a href="user.html" class="user mx-4">
+                  <i class="fa-regular fa-user fa-lg"></i>
+                </a>
+                <div class="lang-select">
+                  <select name="format" id="format">
+                    <option id="select_en" value="en">En</option>
+                    <option id="select_ar" value="ar">Ar</option>
+                  </select>
+                </div>
+              </div>
             </div>
+          </div>
         </nav>
         <!-- ../navbar -->
-    </header>
+      </header>
     <!-- land home -->
     <!-- page breadcrumb -->
     <section class="branch-breadcrumb">
@@ -92,8 +95,8 @@
     <div class="user-data ">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mt-5">
-                    <div class="user-body  h-100 ">
+                <div class="col-md-4 mt-5 ">
+                    <div class="user-body   ">
                         <div class="row row-cols-1 ">
                             <div class="col">
                                 <div class="user-link user-item active-user my-3 p-2 pointer" id="myDataLink"
@@ -227,14 +230,14 @@
 
                         <div class="col">
                             <button class="btn color-main w-100  p-md-3 p-0 " onclick="newOrders()" id="NewOrdersBtn">
-                                <i class="fa-solid fa-table-list"></i>
+                                <i class="fa-solid fa-table-list fa-xl"></i>
                                 <span class="mx-2">New Order</span>
                             </button>
                         </div>
                         <div class="col">
                             <button class="btn color-main w-100 active-order  p-md-3 p-0" onclick="ordersHistory()"
                                 id="OrderHistoryBtn">
-                                <i class="fa-solid fa-table-list"></i>
+                                <i class="fa-solid fa-table-list fa-xl"></i>
                                 <span class="mx-2">Order history</span>
                             </button>
                         </div>
@@ -344,7 +347,7 @@
                             </select>
                         </div>
                         <div class="col mt-4">
-                            <button class="btn btn-product w-100">save</button>
+                            <button class="btn btn-product py-2 w-100">save</button>
                         </div>
                     </div>
                 </div>
