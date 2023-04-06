@@ -374,29 +374,15 @@ filter: invert(1);
   background-color: #f0f0f0;
   padding: 10px;
 }
-.new-order-icon{
-  background-image: url(../images/icons/new-order.png);
-  width: 20px;
-  height: 20px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
+.new-orders-btn img , .recived-orders-btn img
+{
+width: 25px;
 }
 
-.new-orders-btn:focus .new-order-icon{
-  background-image: url(../images/icons/ايقونة\ طلبات\ جديدة.svg);
-}
-.recived-order-icon{
-  background-image: url(../images/icons/recieved-order.png);
-  width: 15px;
-  height: 20px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.recived-orders-btn:focus .recived-order-icon{
-background-image: url(../images/icons/recied-icon2.png);
+.active-order img{
+  filter: invert(1);
 }
 /* user*/
 .user-data{
@@ -551,6 +537,9 @@ padding: 14px;
 .search-group {
   width: 350px !important;
   padding-top: 4rem;
+}
+.nav-link {
+  padding: 5px;
 }
 }
 
