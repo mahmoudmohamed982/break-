@@ -101,6 +101,9 @@ i {
 .w-20px{
   width: 20px;
 }
+.h-20px{
+  height: 20px;
+}
 .w-50px{
   width: 50px;
 }
@@ -292,6 +295,9 @@ color: var(--white-color);
 .advanced-search .nav-tabs .nav-item  .active{
   background: #261C42 !important;
   color: var(--white-color);
+}
+.advanced-search .nav-tabs .nav-item  .active img{
+filter: invert(1);
 }
 .nav-tabs {
   border-bottom: 1px solid transparent;
