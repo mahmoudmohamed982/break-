@@ -617,5 +617,17 @@ padding: 14px;
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-
+  .land-home {
+    background-position: 60% 50%;
+}
+.home-intro {
+  top: 45%;
+  width: 100%;
+}
+.recieve{
+  margin-left: 400px !important;
+}
+.search-group {
+  width: 710px !important;
+}
 }
